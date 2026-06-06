@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0c9a80, #075f6b);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-family: 'Libre Baskerville', serif;
+}
+body:hover {
+    background: linear-gradient(135deg, #075f6b, #0c9a80);
+}
+
+.app {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0,0.4);
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #125160;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+#city-input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+#city-input:focus {
+    border-color: #2e7a8f;
+}
+
+#search-btn {
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #0c9a80, #075f6b);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#search-btn:hover {
+    background: linear-gradient(135deg, #075f6b, #0c9a80);
+}
+
+/* Weather display */
+.weather-card {
+    background: linear-gradient(135deg, #0c9a80, #075f6b);
+    border-radius: 12px;
+    padding: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.city-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.temperature {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+.condition {
+    font-size: 1rem;
+    opacity: 0.85;
+    margin-bottom: 16px;
+}
+
+.details {
+    display: flex;
+    gap: 20px;
+}
+
+.detail-item {
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+.detail-item span {
+    display: block;
+    font-weight: 700;
+    font-size: 1rem;
+    opacity: 1;
+}
+
+.placeholder-text {
+    text-align: center;
+    color: #aaaaaa;
+    padding: 40px 0;
+}
+
+.error-text {
+    text-align: center;
+    color: #dc2626;
+    padding: 20px 0;
+}
+
+.loading-text {
+    text-align: center;
+    color:#0c9a80;
+    padding: 20px 0;
+}
+
+/* Recent searches */
+#recent-searches h3 {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#recent-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.recent-tag {
+    background: #f0f4ff;
+    color: #0c9a80;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.recent-tag:hover {
+    background: #0c9a80;
+    color: white;
+}
