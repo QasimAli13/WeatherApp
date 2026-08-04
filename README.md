@@ -23,6 +23,3 @@ A clean and responsive weather application that provides real-time weather infor
 - OpenWeather API
 
 ---
-
-
-### Built with ❤️, powered by JavaScript and OpenWeather API. ☕
