@@ -10,9 +10,9 @@
 body {
     min-height: 100vh;
     padding: 30px 16px;
-    background: #0a0a0f;
-    /* Deep Dark Background */
-    color: #e8e8f0;
+    background: #f4f1eb;
+    /* Warm Light Background */
+    color: #2d2a24;
     font-family: 'Plus Jakarta Sans', sans-serif;
     display: flex;
     justify-content: center;
@@ -25,17 +25,17 @@ body {
     max-width: 1300px;
     margin: 0 auto;
     padding: 36px;
-    background: #13131f;
-    border: 1px solid #2a2a3a;
+    background: #ffffff;
+    border: 1px solid #e5dfd7;
     border-radius: 24px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
 }
 
 /* Main Dashboard Title */
 h1 {
     font-size: 2.2rem;
     font-weight: 800;
-    color: #f0f0ff;
+    color: #2d2a24;
     margin-bottom: 28px;
     letter-spacing: -0.03em;
 }
@@ -53,9 +53,9 @@ h1 {
     min-width: 0;
     height: 52px;
     padding: 0 20px;
-    color: #f0f0ff;
-    background: #1c1c2e;
-    border: 1px solid #2e2e44;
+    color: #2d2a24;
+    background: #f8f6f2;
+    border: 1px solid #e5dfd7;
     border-radius: 12px;
     outline: none;
     font-family: inherit;
@@ -64,8 +64,8 @@ h1 {
 }
 
 #city-input:focus {
-    border-color: #a78bfa;
-    background: #1f1f33;
+    border-color: #d4a373;
+    background: #ffffff;
 }
 
 #search-btn,
@@ -83,24 +83,24 @@ h1 {
 
 #search-btn {
     color: #ffffff;
-    background: #7c3aed;
+    background: #b8865b;
     border: none;
 }
 
 #search-btn:hover {
-    background: #6d28d9;
+    background: #a0744a;
     transform: scale(1.02);
 }
 
 #location-btn {
-    color: #e8e8f0;
-    background: #1c1c2e;
-    border: 1px solid #2e2e44;
+    color: #2d2a24;
+    background: #f8f6f2;
+    border: 1px solid #e5dfd7;
 }
 
 #location-btn:hover {
-    background: #2a2a40;
-    border-color: #7c3aed;
+    background: #ede8e0;
+    border-color: #b8865b;
 }
 
 /* 3. Favorites & Recent Cities - Proper Panels */
@@ -108,15 +108,15 @@ h1 {
 #recent-searches {
     margin-bottom: 20px;
     padding: 20px;
-    background: #18182a;
-    border: 1px solid #2a2a3a;
+    background: #faf8f5;
+    border: 1px solid #e5dfd7;
     border-radius: 16px;
 }
 
 #favorite-cities h3,
 #recent-searches h3 {
     margin-bottom: 14px;
-    color: #a78bfa;
+    color: #b8865b;
     font-size: 0.95rem;
     font-weight: 800;
     letter-spacing: 0.05em;
@@ -133,15 +133,15 @@ h1 {
 .favorite-item {
     display: flex;
     align-items: center;
-    background: #1c1c2e;
-    border: 1px solid #2e2e44;
+    background: #f8f6f2;
+    border: 1px solid #e5dfd7;
     border-radius: 30px;
     padding: 4px;
 }
 
 .favorite-city {
     padding: 6px 12px 6px 16px;
-    color: #e8e8f0;
+    color: #2d2a24;
     background: transparent;
     border: none;
     font-family: inherit;
@@ -152,7 +152,7 @@ h1 {
 
 .remove-favorite {
     padding: 4px 12px 4px 4px;
-    color: #8a8aa0;
+    color: #8a7e6e;
     background: transparent;
     border: none;
     font-size: 1.1rem;
@@ -160,18 +160,18 @@ h1 {
 }
 
 .favorite-city:hover {
-    color: #a78bfa;
+    color: #b8865b;
 }
 
 .remove-favorite:hover {
-    color: #f87171;
+    color: #c0392b;
 }
 
 .recent-tag {
     padding: 8px 18px;
-    color: #8a8aa0;
-    background: #1c1c2e;
-    border: 1px solid #2e2e44;
+    color: #6b5f4f;
+    background: #f8f6f2;
+    border: 1px solid #e5dfd7;
     border-radius: 30px;
     font-family: inherit;
     font-size: 0.9rem;
@@ -181,16 +181,16 @@ h1 {
 }
 
 .recent-tag:hover {
-    color: #f0f0ff;
-    border-color: #a78bfa;
-    background: #22223a;
+    color: #2d2a24;
+    border-color: #b8865b;
+    background: #ffffff;
 }
 
 /* 4. Main Weather Section */
 .weather-card {
     padding: 32px;
-    background: #18182a;
-    border: 1px solid #2a2a3a;
+    background: #faf8f5;
+    border: 1px solid #e5dfd7;
     border-radius: 20px;
     margin-top: 16px;
 }
@@ -201,11 +201,11 @@ h1 {
     justify-content: space-between;
     padding-bottom: 20px;
     margin-bottom: 24px;
-    border-bottom: 1px solid #2e2e44;
+    border-bottom: 1px solid #e5dfd7;
 }
 
 .city-name {
-    color: #f0f0ff;
+    color: #2d2a24;
     font-size: 2rem;
     font-weight: 800;
 }
@@ -213,9 +213,9 @@ h1 {
 .favorite-btn {
     width: 46px;
     height: 46px;
-    color: #e8e8f0;
-    background: #1c1c2e;
-    border: 1px solid #2e2e44;
+    color: #2d2a24;
+    background: #f8f6f2;
+    border: 1px solid #e5dfd7;
     border-radius: 50%;
     font-size: 1.3rem;
     cursor: pointer;
@@ -223,15 +223,15 @@ h1 {
 }
 
 .favorite-btn:hover {
-    border-color: #f59e0b;
-    color: #fbbf24;
+    border-color: #d4a373;
+    color: #d4a373;
 }
 
 .temperature {
     display: flex;
     align-items: center;
     gap: 16px;
-    color: #a78bfa;
+    color: #b8865b;
     font-size: 4.5rem;
     font-weight: 800;
     line-height: 1;
@@ -239,9 +239,9 @@ h1 {
 }
 
 #unit-toggle {
-    background: #1c1c2e;
-    border: 1px solid #2e2e44;
-    color: #e8e8f0;
+    background: #f8f6f2;
+    border: 1px solid #e5dfd7;
+    color: #2d2a24;
     border-radius: 10px;
     padding: 8px 16px;
     font-size: 0.9rem;
@@ -252,18 +252,18 @@ h1 {
 }
 
 #unit-toggle:hover {
-    border-color: #a78bfa;
-    color: #a78bfa;
+    border-color: #b8865b;
+    color: #b8865b;
 }
 
 .condition {
     margin-bottom: 32px;
-    color: #8a8aa0;
+    color: #6b5f4f;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-/* 5. AAMNE-SAMNE SUNRISE & SUNSET DEDICATED CARDS */
+/* 5. Sunrise & Sunset Cards - Side by Side */
 .details {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -271,45 +271,53 @@ h1 {
     margin-bottom: 32px;
 }
 
-/* Force Sunrise (1st) & Sunset (2nd) to take top 2 large columns side-by-side */
+/* Sunrise & Sunset take 2 columns each, side by side */
 .details .detail-item:nth-child(1),
 .details .detail-item:nth-child(2) {
     grid-column: span 2;
-    padding: 20px 24px;
+    padding: 24px 20px;
     border-radius: 16px;
     text-align: center;
 }
 
-/* Sunrise Amber Card */
+/* Sunrise Card - Warm Golden */
 .details .detail-item:nth-child(1) {
-    background: linear-gradient(135deg, #1c1c2e 0%, #2a1f0d 100%);
-    border: 1px solid #f59e0b;
-    box-shadow: 0 8px 20px rgba(245, 158, 11, 0.08);
+    background: linear-gradient(135deg, #fff8f0 0%, #fdf0e0 100%);
+    border: 2px solid #f0c27a;
+    box-shadow: 0 4px 16px rgba(240, 194, 122, 0.2);
 }
 
 .details .detail-item:nth-child(1) span {
-    color: #fbbf24;
-    font-size: 1.4rem;
+    color: #d4a050;
+    font-size: 1.5rem;
 }
 
-/* Sunset Orange Card */
+.details .detail-item:nth-child(1) strong {
+    color: #8a6a3a;
+}
+
+/* Sunset Card - Warm Orange-Red */
 .details .detail-item:nth-child(2) {
-    background: linear-gradient(135deg, #1c1c2e 0%, #2a180e 100%);
-    border: 1px solid #ea580c;
-    box-shadow: 0 8px 20px rgba(234, 88, 12, 0.08);
+    background: linear-gradient(135deg, #fff5ed 0%, #fde8d8 100%);
+    border: 2px solid #e8966a;
+    box-shadow: 0 4px 16px rgba(232, 150, 106, 0.2);
 }
 
 .details .detail-item:nth-child(2) span {
-    color: #fb923c;
-    font-size: 1.4rem;
+    color: #d4783a;
+    font-size: 1.5rem;
 }
 
-/* Rest of the metric cards */
+.details .detail-item:nth-child(2) strong {
+    color: #8a5a3a;
+}
+
+/* Other metric cards */
 .detail-item {
     padding: 16px;
-    color: #8a8aa0;
-    background: #1c1c2e;
-    border: 1px solid #2e2e44;
+    color: #6b5f4f;
+    background: #f8f6f2;
+    border: 1px solid #e5dfd7;
     border-radius: 14px;
     font-size: 0.85rem;
     line-height: 1.4;
@@ -318,7 +326,7 @@ h1 {
 .detail-item span {
     display: block;
     margin-top: 8px;
-    color: #f0f0ff;
+    color: #2d2a24;
     font-size: 1.1rem;
     font-weight: 800;
 }
@@ -328,13 +336,13 @@ h1 {
 .daily-section {
     padding-top: 28px;
     margin-top: 28px;
-    border-top: 1px solid #2e2e44;
+    border-top: 1px solid #e5dfd7;
 }
 
 .hourly-section h3,
 .daily-section h3 {
     margin-bottom: 20px;
-    color: #f0f0ff;
+    color: #2d2a24;
     font-size: 1.3rem;
     font-weight: 800;
 }
@@ -346,22 +354,22 @@ h1 {
     padding-bottom: 12px;
     overflow-x: auto;
     scrollbar-width: thin;
-    scrollbar-color: #2e2e44 transparent;
+    scrollbar-color: #e5dfd7 transparent;
 }
 
 .hourly-item {
     min-width: 110px;
     padding: 16px 12px;
-    color: #e8e8f0;
-    background: #1c1c2e;
-    border: 1px solid #2e2e44;
+    color: #2d2a24;
+    background: #f8f6f2;
+    border: 1px solid #e5dfd7;
     border-radius: 14px;
     text-align: center;
     flex-shrink: 0;
 }
 
 .hourly-item span:first-child {
-    color: #8a8aa0;
+    color: #6b5f4f;
     font-size: 0.82rem;
 }
 
@@ -379,7 +387,7 @@ h1 {
 .hourly-item small {
     display: block;
     margin-top: 6px;
-    color: #8a8aa0;
+    color: #6b5f4f;
     font-size: 0.75rem;
 }
 
@@ -396,14 +404,14 @@ h1 {
     align-items: center;
     gap: 12px;
     padding: 16px 20px;
-    color: #e8e8f0;
-    background: #1c1c2e;
-    border: 1px solid #2e2e44;
+    color: #2d2a24;
+    background: #f8f6f2;
+    border: 1px solid #e5dfd7;
     border-radius: 14px;
 }
 
 .daily-item span:first-child {
-    color: #a78bfa;
+    color: #b8865b;
     font-size: 0.9rem;
     font-weight: 800;
 }
@@ -418,7 +426,7 @@ h1 {
 }
 
 .daily-item small {
-    color: #8a8aa0;
+    color: #6b5f4f;
     font-size: 0.82rem;
     text-align: right;
 }
@@ -432,10 +440,10 @@ h1 {
 
 .insight-item {
     padding: 16px 20px;
-    color: #e8e8f0;
-    background: #1c1c2e;
-    border: 1px solid #2e2e44;
-    border-left: 4px solid #a78bfa;
+    color: #2d2a24;
+    background: #f8f6f2;
+    border: 1px solid #e5dfd7;
+    border-left: 4px solid #b8865b;
     border-radius: 12px;
     font-size: 0.95rem;
     line-height: 1.5;
@@ -451,15 +459,15 @@ h1 {
 }
 
 .placeholder-text {
-    color: #8a8aa0;
+    color: #6b5f4f;
 }
 
 .error-text {
-    color: #f87171;
+    color: #c0392b;
 }
 
 .loading-text {
-    color: #a78bfa;
+    color: #b8865b;
     font-weight: 700;
 }
 
@@ -467,6 +475,11 @@ h1 {
 @media (max-width: 900px) {
     .details {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .details .detail-item:nth-child(1),
+    .details .detail-item:nth-child(2) {
+        grid-column: span 1;
     }
 
     .daily-list {
