@@ -70,8 +70,8 @@ The application analyzes current weather conditions and provides simple recommen
 ## 🚀 Run Locally
 
 ```bash
-git clone YOUR_REPOSITORY_URL
-cd WeatherTrack
+git clone (https://github.com/QasimAli13/WeatherApp)
+cd WEATHERAPP
 ```
 
 Open `index.html` in your browser or run it with **VS Code Live Server**.
